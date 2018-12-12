@@ -11,8 +11,9 @@ public class Tree extends Product {
 	
 	protected double heigth;
 
-	public Tree(double heigth, double price) throws Exception {
+	public Tree(double heigth, double price) throws Exception {		
 		super(price);
+		if(heigth <= 0) throw new Exception("debe de tener una altua"); 
 		this.heigth =heigth;
 	}
 

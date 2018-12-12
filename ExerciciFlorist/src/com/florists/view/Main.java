@@ -1,8 +1,8 @@
 package com.florists.view;
 
 import com.florists.application.FloristController;
-import com.florists.domain.Colour;
-import com.florists.domain.TypeMaterial;
+import com.florists.utilities.Colour;
+import com.florists.utilities.TypeMaterial;
 
 public class Main {
 	
@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		
-		//controller.createFlorist("Floristeria Manolito");
+		controller.createFlorist("Floristeria Manolito");
 		
 		controller.addTree(12, 3.5);
 		controller.addTree(10, 2.8);

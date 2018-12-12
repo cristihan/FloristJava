@@ -20,7 +20,7 @@ public class Florist {
 	}
 
 	public void addProduct(Product product) throws Exception {
-		if (productList == null)
+		if (product == null)
 			throw new Exception();
 		productList.add(product);
 	}

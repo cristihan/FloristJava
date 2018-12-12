@@ -1,5 +1,7 @@
 package com.florists.domain;
 
+import com.florists.utilities.Colour;
+
 public class Flower extends Product {
 	
 	private Colour colour;

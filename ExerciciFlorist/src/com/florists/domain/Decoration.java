@@ -3,6 +3,8 @@
  */
 package com.florists.domain;
 
+import com.florists.utilities.TypeMaterial;
+
 /**
  * @author cristihan.valdiviezo
  *
